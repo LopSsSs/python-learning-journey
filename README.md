@@ -1,3 +1,18 @@
+<p align="center"><img src="docs/img/banner.svg" alt="Python Learning Journey" width="100%"></p>
+
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-aprendiendo-3776ab?logo=python&logoColor=white&style=flat-square">
+  <img alt="SQL" src="https://img.shields.io/badge/SQL-consultas-336791?logo=postgresql&logoColor=white&style=flat-square">
+  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-datos-150458?logo=pandas&logoColor=white&style=flat-square">
+  <img alt="Git" src="https://img.shields.io/badge/Git-GitHub-f05032?logo=git&logoColor=white&style=flat-square">
+  <img alt="Objetivo" src="https://img.shields.io/badge/objetivo-Data%20Engineer-ffd43b?style=flat-square">
+</p>
+
+```mermaid
+flowchart LR
+    P[Python] --> S[SQL] --> D[Procesado de datos] --> A[Automatización] --> E[ETL y nube] --> DE((Data Engineer))
+```
+
 # David Lopes
 
 Future Data Engineer focused on Python, SQL, automation and data processing.

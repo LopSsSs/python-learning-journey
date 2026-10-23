@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Python Learning Journey">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c1424"/><stop offset="1" stop-color="#15213a"/></linearGradient>
+<linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset=".45" stop-color="#0c1424" stop-opacity="1"/><stop offset=".62" stop-color="#0c1424" stop-opacity="0"/></linearGradient>
+<radialGradient id="glow" cx=".78" cy=".5" r=".6"><stop offset="0" stop-color="#ffd43b" stop-opacity=".18"/><stop offset="1" stop-color="#ffd43b" stop-opacity="0"/></radialGradient>
+<clipPath id="marco"><rect width="1280" height="320" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#marco)">
+<rect width="1280" height="320" fill="url(#bg)"/>
+<rect width="1280" height="320" fill="url(#glow)"/>
+<text x="740" y="70" font-family="Consolas, monospace" font-size="20" fill="#ffd43b" opacity=".9" xml:space="preserve">def aprender(dia):</text><text x="740" y="102" font-family="Consolas, monospace" font-size="20" fill="#ffd43b" opacity=".9" xml:space="preserve">    datos = leer('gastos.txt')</text><text x="740" y="134" font-family="Consolas, monospace" font-size="20" fill="#ffd43b" opacity=".9" xml:space="preserve">    total = sum(datos)</text><text x="740" y="166" font-family="Consolas, monospace" font-size="20" fill="#ffd43b" opacity=".9" xml:space="preserve">    return total</text><text x="740" y="198" font-family="Consolas, monospace" font-size="20" fill="#4b8bbe" opacity=".9" xml:space="preserve"></text><text x="740" y="230" font-family="Consolas, monospace" font-size="20" fill="#4b8bbe" opacity=".9" xml:space="preserve">SELECT categoria, SUM(importe)</text><text x="740" y="262" font-family="Consolas, monospace" font-size="20" fill="#4b8bbe" opacity=".9" xml:space="preserve">FROM gastos GROUP BY categoria;</text>
+<rect width="1280" height="320" fill="url(#fade)"/>
+</g>
+<rect x="64" y="92" width="56" height="5" rx="2.5" fill="#ffd43b"/>
+<text x="64" y="160" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="50" font-weight="800" fill="#eef4ff" letter-spacing="-1">Python Learning Journey</text>
+<text x="64" y="204" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="23" fill="#eef4ff" opacity=".78">Mi camino hacia Data Engineer: Python, SQL</text><text x="64" y="236" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="23" fill="#eef4ff" opacity=".78">y automatización</text>
+<rect x="1" y="1" width="1278" height="318" rx="17" fill="none" stroke="#ffd43b" stroke-opacity=".25" stroke-width="2"/>
+</svg>
